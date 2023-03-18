@@ -1,0 +1,454 @@
+{
+  "totalProducts": "5311",
+  "category": "aps",
+  "result": [
+    {
+      "position": {
+        "page": 1,
+        "position": 1,
+        "global_position": 1
+      },
+      "asin": "B09JPCNS3X",
+      "price": {
+        "discounted": true,
+        "current_price": 2421.75,
+        "currency": "GBP",
+        "before_price": 2600,
+        "savings_amount": 178.25,
+        "savings_percent": 6.86
+      },
+      "reviews": {
+        "total_reviews": 116,
+        "rating": 4.6
+      },
+      "url": "https://www.amazon.co.uk/dp/B09JPCNS3X",
+      "score": "533.60",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Sony Alpha 7 IV | Full-Frame Mirrorless Camera with Sony 28-70 mm F3.5-5.6 Kit Lens ( 33MP, Real-time autofocus, 10 fps, 4...",
+      "thumbnail": "https://m.media-amazon.com/images/I/81+xPwL9Y0L._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 2,
+        "global_position": 2
+      },
+      "asin": "B0BMLCPT9C",
+      "price": {
+        "discounted": false,
+        "current_price": 149,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 5,
+        "rating": 5
+      },
+      "url": "https://www.amazon.co.uk/dp/B0BMLCPT9C",
+      "score": "25.00",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "NBD Digital Camera 4K 48MP Vlogging Camera, Cameras for Photography with Flip Screen, WiFi, 16X Digital Zoom, 32GB TF Car...",
+      "thumbnail": "https://m.media-amazon.com/images/I/71JpMYlqxnL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 3,
+        "global_position": 3
+      },
+      "asin": "B01N4M8FIF",
+      "price": {
+        "discounted": false,
+        "current_price": 0,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 1016,
+        "rating": 4.5
+      },
+      "url": "https://www.amazon.co.uk/dp/B01N4M8FIF",
+      "score": "4572.00",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Panasonic LUMIX DC-FZ82EB-K Digital Bridge Camera with Ultra Wide 20-1200 mm Lens - Black",
+      "thumbnail": "https://m.media-amazon.com/images/I/71InIHaU9WL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 4,
+        "global_position": 4
+      },
+      "asin": "B09SNS6YLL",
+      "price": {
+        "discounted": false,
+        "current_price": 139,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 99,
+        "rating": 3.8
+      },
+      "url": "https://www.amazon.co.uk/dp/B09SNS6YLL",
+      "score": "376.20",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Digital Camera 4K Ultra HD 48MP Camera Vlogging Camera with Wide Angle Lens Digital Zoom 16 x, 3.0 Inch Screen Compact Cam...",
+      "thumbnail": "https://m.media-amazon.com/images/I/71lyAN-2y1L._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 5,
+        "global_position": 5
+      },
+      "asin": "B074WK5GW9",
+      "price": {
+        "discounted": true,
+        "current_price": 173.87,
+        "currency": "GBP",
+        "before_price": 220,
+        "savings_amount": 46.13,
+        "savings_percent": 20.97
+      },
+      "reviews": {
+        "total_reviews": 2135,
+        "rating": 4.3
+      },
+      "url": "https://www.amazon.co.uk/dp/B074WK5GW9",
+      "score": "9180.50",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Kodak PIXPRO Astro Zoom AZ401-BK 16MP Digital Camera with 40X Optical Zoom and 3\" LCD (Black)",
+      "thumbnail": "https://m.media-amazon.com/images/I/710KdeWg7WL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 6,
+        "global_position": 6
+      },
+      "asin": "B0B9MG869Q",
+      "price": {
+        "discounted": true,
+        "current_price": 79.99,
+        "currency": "GBP",
+        "before_price": 99.99,
+        "savings_amount": 20,
+        "savings_percent": 20
+      },
+      "reviews": {
+        "total_reviews": 261,
+        "rating": 4.4
+      },
+      "url": "https://www.amazon.co.uk/dp/B0B9MG869Q",
+      "score": "1148.40",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": true,
+      "amazonPrime": false,
+      "title": "Digital Camera,Jumobuis 4K 48MP Autofocus Vlogging Camera with 32G Memory Card 16X Digital Zoom,Powerful Cameras for Photo...",
+      "thumbnail": "https://m.media-amazon.com/images/I/71ywENnpEVL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 7,
+        "global_position": 7
+      },
+      "asin": "B084S4FD5T",
+      "price": {
+        "discounted": false,
+        "current_price": 0,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 2642,
+        "rating": 4.6
+      },
+      "url": "https://www.amazon.co.uk/dp/B084S4FD5T",
+      "score": "12153.20",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "instax mini 11instant film camera, auto exposure and Built-in selfie lens, SKY Blue",
+      "thumbnail": "https://m.media-amazon.com/images/I/71vVyKwaHjL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 8,
+        "global_position": 8
+      },
+      "asin": "B0BKJMY5YK",
+      "price": {
+        "discounted": false,
+        "current_price": 269,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 17,
+        "rating": 3.7
+      },
+      "url": "https://www.amazon.co.uk/dp/B0BKJMY5YK",
+      "score": "62.90",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "NBD Digital Camera 33MP DSLR Camera for Photography Beginners，Autofocus 1080P HD Vlogging Camera with 24X Telephoto Lens",
+      "thumbnail": "https://m.media-amazon.com/images/I/81jf1qk38TL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 9,
+        "global_position": 9
+      },
+      "asin": "B01AAZ4WOY",
+      "price": {
+        "discounted": false,
+        "current_price": 269,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 171,
+        "rating": 4.5
+      },
+      "url": "https://www.amazon.co.uk/dp/B01AAZ4WOY",
+      "score": "769.50",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Panasonic LUMIX DMC-TZ80EB-S Super Zoom Camera - Silver",
+      "thumbnail": "https://m.media-amazon.com/images/I/81syhH1KcUL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 10,
+        "global_position": 10
+      },
+      "asin": "B0B67N8T2V",
+      "price": {
+        "discounted": true,
+        "current_price": 59.99,
+        "currency": "GBP",
+        "before_price": 61.99,
+        "savings_amount": 2,
+        "savings_percent": 3.23
+      },
+      "reviews": {
+        "total_reviews": 261,
+        "rating": 4.3
+      },
+      "url": "https://www.amazon.co.uk/dp/B0B67N8T2V",
+      "score": "1122.30",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Digital Camera,Amdeurdi Vlogging Camera Rechargeable Digital Cameras with 16x Zoom Compact Camera FHD 1080P 44MP 16X Zoom ...",
+      "thumbnail": "https://m.media-amazon.com/images/I/71G1igzBldL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 11,
+        "global_position": 11
+      },
+      "asin": "B011SG00BS",
+      "price": {
+        "discounted": true,
+        "current_price": 449.95,
+        "currency": "GBP",
+        "before_price": 479,
+        "savings_amount": 29.05,
+        "savings_percent": 6.06
+      },
+      "reviews": {
+        "total_reviews": 181,
+        "rating": 4.7
+      },
+      "url": "https://www.amazon.co.uk/dp/B011SG00BS",
+      "score": "850.70",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Panasonic Lumix DMC-FZ330EBK Bridge Camera with 25 - 600 mm Zoom and Full Range F2.8 - Black",
+      "thumbnail": "https://m.media-amazon.com/images/I/811jHNXpktL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 12,
+        "global_position": 12
+      },
+      "asin": "B08H5D7ZD9",
+      "price": {
+        "discounted": true,
+        "current_price": 1649,
+        "currency": "GBP",
+        "before_price": 1799.99,
+        "savings_amount": 150.99,
+        "savings_percent": 8.39
+      },
+      "reviews": {
+        "total_reviews": 295,
+        "rating": 4.6
+      },
+      "url": "https://www.amazon.co.uk/dp/B08H5D7ZD9",
+      "score": "1357.00",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Panasonic LUMIX DC-S5 S5 Full Frame Mirrorless Camera body, 4K 60P Video Recording with Flip Screen and Wi-Fi, L-Mount, 2...",
+      "thumbnail": "https://m.media-amazon.com/images/I/81rMhM-GLAL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 13,
+        "global_position": 13
+      },
+      "asin": "B00THKEKEQ",
+      "price": {
+        "discounted": false,
+        "current_price": 294.99,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 2051,
+        "rating": 4.4
+      },
+      "url": "https://www.amazon.co.uk/dp/B00THKEKEQ",
+      "score": "9024.40",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Nikon Coolpix L340 Camera - Black (20 MP, 28x Optical Zoom) 3-Inch LCD",
+      "thumbnail": "https://m.media-amazon.com/images/I/91zd5c1CzML._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 14,
+        "global_position": 14
+      },
+      "asin": "B0B9BT85VS",
+      "price": {
+        "discounted": false,
+        "current_price": 59.99,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 45,
+        "rating": 4.3
+      },
+      "url": "https://www.amazon.co.uk/dp/B0B9BT85VS",
+      "score": "193.50",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Digital Camera 1080P Full HD Compact Camera 36MP Vlogging Camera with 16X Digital Zoom, FamBrow Photo Camera 2.4 Inch LCD ...",
+      "thumbnail": "https://m.media-amazon.com/images/I/71XCik-y8yL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 15,
+        "global_position": 15
+      },
+      "asin": "B0B99QJSNK",
+      "price": {
+        "discounted": false,
+        "current_price": 49.99,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 670,
+        "rating": 4.5
+      },
+      "url": "https://www.amazon.co.uk/dp/B0B99QJSNK",
+      "score": "3015.00",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "Digital Camera, 1080P Compact Camera FHD Photo Camera 44MP Vlogging Camera Portable Mini Children's Camera with LCD Scree...",
+      "thumbnail": "https://m.media-amazon.com/images/I/71raMiaY8tL._AC_UY218_.jpg"
+    },
+    {
+      "position": {
+        "page": 1,
+        "position": 16,
+        "global_position": 16
+      },
+      "asin": "B09MCRCL5W",
+      "price": {
+        "discounted": false,
+        "current_price": 139.99,
+        "currency": "GBP",
+        "before_price": 0,
+        "savings_amount": 0,
+        "savings_percent": 0
+      },
+      "reviews": {
+        "total_reviews": 554,
+        "rating": 4.1
+      },
+      "url": "https://www.amazon.co.uk/dp/B09MCRCL5W",
+      "score": "2271.40",
+      "sponsored": false,
+      "amazonChoice": false,
+      "bestSeller": false,
+      "amazonPrime": false,
+      "title": "4K Digital Camera Video Camera Camcorder Ultra HD 48MP WiFi YouTube Vlogging Camera with Wide Angle Lens 3.5 Inch IPS Touc...",
+      "thumbnail": "https://m.media-amazon.com/images/I/51troSbpftL._AC_UY218_.jpg"
+    }
+  ]
+}
