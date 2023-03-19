@@ -9,10 +9,9 @@ export const App = () => {
     return (
         <BrowserRouter>
             <Stack sx={{ minHeight: "100vh" }}>
-                <Box sx={{ height: "7vh", mb: 2 }}>
+                <Box sx={{ height: "7vh", mb: 5 }}>
                     <NavigationBar />
                 </Box>
-
                 <Box sx={{ height: "93vh" }}>
                     <AppRoutes />
                 </Box>
