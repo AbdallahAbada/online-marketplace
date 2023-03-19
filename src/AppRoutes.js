@@ -6,7 +6,6 @@ import { Checkout } from "./pages/Checkout";
 import { NotFound } from "./pages/NotFound";
 
 export const AppRoutes = () => {
-    return <div>AppRoutes</div>;
     return (
         <Routes>
             <Route path="/" element={<Home />} />
