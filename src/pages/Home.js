@@ -9,6 +9,8 @@ import { SearchForm } from "../components/SearchForm";
 import { SearchResults } from "../components/SearchResults";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { data } from "../mocks/productSearch.json";
+
 
 export const Home = () => {
     const [searchTerm, setSearchTerm] = useState();
@@ -21,16 +23,16 @@ export const Home = () => {
             const fetchData = async () => {
                 setIsLoading(true)
                 try {
-                    const { data } = await axios.get(
-                        'https://amazon23.p.rapidapi.com/product-search',
-                        {
-                            params: { query: searchTerm, country: "GB" },
-                            headers: {
-                                "X-RapidAPI-Key": process.env.React_APP_RaPID_API_KEY,
-                                "X-RapidAPI-Host": process.env.React_APP_RaPID_API_HOST,
-                            },
-                        }
-                    );
+                    // const { data } = await axios.get(
+                    //     'https://amazon23.p.rapidapi.com/product-search',
+                    //     {
+                    //         params: { query: searchTerm, country: "GB" },
+                    //         headers: {
+                    //             "X-RapidAPI-Key": process.env.React_APP_RaPID_API_KEY,
+                    //             "X-RapidAPI-Host": process.env.React_APP_RaPID_API_HOST,
+                    //         },
+                    //     }
+                    // );
                     setError(false)
                     searchResults(data?.result || [])
                 } catch (error) {
