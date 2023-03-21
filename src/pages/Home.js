@@ -8,9 +8,8 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { SearchForm } from "../components/SearchForm";
 import { SearchResults } from "../components/SearchResults";
 import { useEffect, useState } from "react";
+import data from "../mocks/productSearch.json"
 import axios from "axios";
-import { data } from "../mocks/productSearch.json";
-
 
 export const Home = () => {
     const [searchTerm, setSearchTerm] = useState();
@@ -21,7 +20,8 @@ export const Home = () => {
         if (searchTerm) {
             setSearchTerm(true)
             const fetchData = async () => {
-                setIsLoading(true)
+                setIsLoading(true);
+
                 try {
                     // const { data } = await axios.get(
                     //     'https://amazon23.p.rapidapi.com/product-search',
@@ -33,6 +33,7 @@ export const Home = () => {
                     //         },
                     //     }
                     // );
+
                     setError(false)
                     searchResults(data?.result || [])
                 } catch (error) {
