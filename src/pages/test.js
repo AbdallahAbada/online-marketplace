@@ -1,60 +1,55 @@
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import Alert from "@mui/material/Alert";
-import Backdrop from "@mui/material/Backdrop";
-import CircularProgress from "@mui/material/CircularProgress";
-import axios from "axios";
+import Alert from '@mui/material/Alert';
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 import { SearchForm } from "../components/SearchForm";
 import { SearchResults } from "../components/SearchResults";
 import { useEffect, useState } from "react";
-import data from "../mocks/productSearch.json";
+import data from "../mocks/productSearch.json"
+import axios from "axios";
 
 export const Home = () => {
     const [searchTerm, setSearchTerm] = useState();
     const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState(false);
-    const [results, setResults] = useState();
-
+    const [error, setError] = useState(false)
+    const [results, searchResults] = useState(true);
     useEffect(() => {
         if (searchTerm) {
+            setSearchTerm(true)
             const fetchData = async () => {
                 setIsLoading(true);
 
                 try {
-                    setError(false);
-
                     // const { data } = await axios.get(
-                    //   "https://amazon23.p.rapidapi.com/product-search",
-                    //   {
-                    //     params: { query: searchTerm, country: "GB" },
-                    //     headers: {
-                    //       "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
-                    //       "X-RapidAPI-Host": process.env.REACT_APP_RAPID_API_HOST,
-                    //     },
-                    //   }
+                    //     'https://amazon23.p.rapidapi.com/product-search',
+                    //     {
+                    //         params: { query: searchTerm, country: "GB" },
+                    //         headers: {
+                    //             "X-RapidAPI-Key": process.env.React_APP_RaPID_API_KEY,
+                    //             "X-RapidAPI-Host": process.env.React_APP_RaPID_API_HOST,
+                    //         },
+                    //     }
                     // );
 
-                    setResults(data?.result || []);
+                    setError(false)
+                    searchResults(data?.result || [])
                 } catch (error) {
-                    console.log(`[ERROR]: Failed to fetch data | ${error.message}`);
-
-                    setError(true);
-                    setResults();
+                    console.log(`[ERROR]: Faild to fetch data | ${error.message}`)
+                    setError(true)
+                    searchResults()
                 }
-
-                setIsLoading(false);
-            };
-
+                setIsLoading(false)
+            }
             fetchData();
         }
-    }, [searchTerm]);
+    }, [searchTerm])
 
     const handleQuery = (query) => {
-        setSearchTerm(query);
-    };
-
+        setSearchTerm(query)
+    }
     return (
         <Container maxWidth="lg">
             <Stack>
@@ -76,5 +71,5 @@ export const Home = () => {
                 </Box>
             </Stack>
         </Container>
-    );
-};
+    )
+}

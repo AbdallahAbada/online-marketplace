@@ -16,6 +16,7 @@ export const SearchForm = ({ handleQuery }) => {
 
     const onSubmit = ({ query }) => {
         handleQuery(query)
+        // console.log(query)
     }
 
     const formik = useFormik({
@@ -28,7 +29,6 @@ export const SearchForm = ({ handleQuery }) => {
         <Box sx={{ my: 3 }} component="form" onSubmit={formik.handleSubmit}>
             <TextField
                 name="query"
-                id="searchTerm"
                 placeholder="Enter product name"
                 fullWidth
                 value={formik.values.query}
