@@ -5,6 +5,10 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Button from '@mui/material/Button';
 import { minWidth } from "@mui/system";
+import IconButton from "@mui/material/IconButton";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+
 
 export const ProductCard = ({ result }) => {
     console.log(result)
@@ -24,9 +28,13 @@ export const ProductCard = ({ result }) => {
                     {result.title}
                 </Typography>
             </CardContent>
-            <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+            <CardActions sx={{ display: "flex", justifyContent: "space-between" }}>
+                <IconButton aria-label="delete">
+                    <FavoriteIcon />
+                </IconButton>
+                <IconButton aria-label="delete">
+                    <AddShoppingCartIcon />
+                </IconButton>
             </CardActions>
         </Card>
     );
