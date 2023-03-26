@@ -9,14 +9,21 @@ import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import { useBasket } from "../context/BasketProvider";
+import { getFromLocalStorage } from "../utils/getFromLocalStorage";
 
 export const ProductCard = ({ result }) => {
     const { items, setItems } = useBasket()
 
-    const handleAddItem = () => {
+    const handleAddToCart = () => {
         const newItem = [...items, result]
         localStorage.setItem("items", JSON.stringify(newItem))
         setItems(newItem)
+    }
+
+    const handleAddToWishlist = () => {
+        const wishListDromLS = getFromLocalStorage("wishList", []);
+        wishListDromLS.push(result)
+        localStorage.setItem("wishList", JSON.stringify(wishListDromLS))
     }
     return (
         <Card sx={{ maxWidth: "18rem", minWidth: "5rem", m: 3 }}>
@@ -35,10 +42,10 @@ export const ProductCard = ({ result }) => {
                 </Typography>
             </CardContent>
             <CardActions sx={{ display: "flex", justifyContent: "space-between" }}>
-                <IconButton aria-label="delete">
+                <IconButton aria-label="delete" onClick={handleAddToWishlist}>
                     <FavoriteIcon />
                 </IconButton>
-                <IconButton aria-label="delete" onClick={handleAddItem}>
+                <IconButton aria-label="delete" onClick={handleAddToCart}>
                     <AddShoppingCartIcon />
                 </IconButton>
             </CardActions>
