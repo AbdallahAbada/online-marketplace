@@ -1,10 +1,11 @@
 import { createContext, useContext, useState } from "react";
+import { getFromLocalStorage } from "../utils/getFromLocalStorage";
 
 
 const BasketContext = createContext();
 
 export const BasketProvider = ({ children }) => {
-    const [items, setItems] = useState([]);
+    const [items, setItems] = useState(getFromLocalStorage("items", []));
 
 
     const value = { items, setItems };

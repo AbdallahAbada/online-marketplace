@@ -15,6 +15,7 @@ export const ProductCard = ({ result }) => {
 
     const handleAddItem = () => {
         const newItem = [...items, result]
+        localStorage.setItem("items", JSON.stringify(newItem))
         setItems(newItem)
     }
     return (
