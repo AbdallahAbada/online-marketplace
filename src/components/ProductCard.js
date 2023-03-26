@@ -8,10 +8,15 @@ import { minWidth } from "@mui/system";
 import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-
+import { useBasket } from "../context/BasketProvider";
 
 export const ProductCard = ({ result }) => {
-    console.log(result)
+    const { items, setItems } = useBasket()
+
+    const handleAddItem = () => {
+        const newItem = [...items, result]
+        setItems(newItem)
+    }
     return (
         <Card sx={{ maxWidth: "18rem", minWidth: "5rem", m: 3 }}>
             <CardMedia
@@ -32,7 +37,7 @@ export const ProductCard = ({ result }) => {
                 <IconButton aria-label="delete">
                     <FavoriteIcon />
                 </IconButton>
-                <IconButton aria-label="delete">
+                <IconButton aria-label="delete" onClick={handleAddItem}>
                     <AddShoppingCartIcon />
                 </IconButton>
             </CardActions>

@@ -18,10 +18,14 @@ import ListItemText from '@mui/material/ListItemText';
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import { useBasket } from "../context/BasketProvider";
 
 export const NavigationBar = () => {
     const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState(false);
+    const { items } = useBasket();
+
+
     return (
         <AppBar position="static" sx={{ background: "black" }}>
             <Drawer
@@ -96,7 +100,7 @@ export const NavigationBar = () => {
                                 navigate("/checkout");
                             }}
                         >
-                            <Badge badgeContent={4} color="error">
+                            <Badge badgeContent={items.length} color="error">
                                 <ShoppingCartIcon />
                             </Badge>
                         </IconButton>
